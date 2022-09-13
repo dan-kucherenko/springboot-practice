@@ -24,13 +24,13 @@ public class Student {
     @Transient
     private Integer age;
 
-    public Student(String name, String email, LocalDate dob ) {
+    public Student(String name, String email, LocalDate dob) {
         this.name = name;
         this.email = email;
         this.dob = dob;
     }
 
-    public Student(Long id, String name, String email, LocalDate dob ) {
+    public Student(Long id, String name, String email, LocalDate dob) {
         this.id = id;
         this.name = name;
         this.email = email;
