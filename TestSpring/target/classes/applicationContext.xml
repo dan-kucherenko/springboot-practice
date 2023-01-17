@@ -12,6 +12,6 @@
     </bean>
 
     <bean id="musicPlayer" class="ua.kucherenko.testspring.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
+        <property name="music" ref="musicBean"/>
     </bean>
 </beans>
