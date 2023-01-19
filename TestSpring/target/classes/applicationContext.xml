@@ -30,5 +30,6 @@
           class="ua.kucherenko.testspring.ClassicalMusic"
           init-method="myInit"
           destroy-method="myDestroy"
-          scope="prototype"/>
+          factory-method="createClassicalMusic"
+    />
 </beans>

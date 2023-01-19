@@ -1,6 +1,11 @@
 package ua.kucherenko.testspring;
 
 public class ClassicalMusic implements Music{
+    private ClassicalMusic(){}
+
+    public static ClassicalMusic createClassicalMusic(){
+        return new ClassicalMusic();
+    }
     public void myInit(){
         System.out.println("Initializing the bean");
     }
