@@ -1,5 +1,8 @@
 package ua.kucherenko.testspring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClassicalMusic implements Music{
     private ClassicalMusic(){}
 
