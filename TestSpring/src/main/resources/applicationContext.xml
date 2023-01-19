@@ -15,7 +15,7 @@
     <bean id="musicBean3"
           class="ua.kucherenko.testspring.ClassicalMusic"/>
 
-    <bean id="musicPlayer" class="ua.kucherenko.testspring.MusicPlayer">
+    <bean id="musicPlayer" class="ua.kucherenko.testspring.MusicPlayer" scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicBean1"/>

@@ -8,10 +8,14 @@ public class TestSpring {
                 "applicationContext.xml");
 //        Music music = context.getBean("musicBean", Music.class);
         // Manual dependency injection
-        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer.playMusic();
-        System.out.println(musicPlayer.getName());
-        System.out.println(musicPlayer.getVolume());
+        MusicPlayer firsMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+        MusicPlayer secondMusicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+        boolean comparison = firsMusicPlayer == secondMusicPlayer;
+        System.out.println(comparison);
+
+        firsMusicPlayer.playMusic();
+        System.out.println(firsMusicPlayer.getName());
+        System.out.println(firsMusicPlayer.getVolume());
 
         context.close();
     }
