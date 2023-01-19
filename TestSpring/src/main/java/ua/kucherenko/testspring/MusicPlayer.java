@@ -1,31 +1,21 @@
 package ua.kucherenko.testspring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MusicPlayer {
-    private final Music music;
-    private String name;
-    private int volume;
+    private final Music music1;
+    private final Music music2;
 
-    public MusicPlayer(Music music) {
-        this.music = music;
+    @Autowired
+    public MusicPlayer(@Qualifier("metalMusic") Music music1, @Qualifier("rockMusic")Music music2) {
+        this.music1 = music1;
+        this.music2 = music2;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    public void playMusic() {
-        System.out.println("Playing: " + music.getSong());
+    public String playMusic() {
+        return "Playing: " + music1.getSong() + ',' + music2.getSong();
     }
 }
