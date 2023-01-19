@@ -8,22 +8,27 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
-    <bean id="musicBean1"
-          class="ua.kucherenko.testspring.MetalMusic"/>
-    <bean id="musicBean2"
-          class="ua.kucherenko.testspring.RockMusic"/>
-    <bean id="musicBean3"
-          class="ua.kucherenko.testspring.ClassicalMusic"/>
+    <!--    <bean id="musicBean1"-->
+    <!--          class="ua.kucherenko.testspring.MetalMusic"/>-->
+    <!--    <bean id="musicBean2"-->
+    <!--          class="ua.kucherenko.testspring.RockMusic"/>-->
+    <!--    <bean id="musicBean3"-->
+    <!--          class="ua.kucherenko.testspring.ClassicalMusic"/>-->
 
-    <bean id="musicPlayer" class="ua.kucherenko.testspring.MusicPlayer" scope="prototype">
-        <property name="musicList">
-            <list>
-                <ref bean="musicBean1"/>
-                <ref bean="musicBean2"/>
-                <ref bean="musicBean3"/>
-            </list>
-        </property>
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
+    <!--    <bean id="musicPlayer" class="ua.kucherenko.testspring.MusicPlayer" scope="prototype">-->
+    <!--        <property name="musicList">-->
+    <!--            <list>-->
+    <!--                <ref bean="musicBean1"/>-->
+    <!--                <ref bean="musicBean2"/>-->
+    <!--                <ref bean="musicBean3"/>-->
+    <!--            </list>-->
+    <!--        </property>-->
+    <!--        <property name="name" value="${musicPlayer.name}"/>-->
+    <!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+    <!--    </bean>-->
+    <bean id="musicBean"
+          class="ua.kucherenko.testspring.ClassicalMusic"
+          init-method="myInit"
+          destroy-method="myDestroy"
+    />
 </beans>
