@@ -4,6 +4,10 @@
   <groupId>ua.kucherenko.springmvc_test</groupId>
   <artifactId>SpringMVC</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>SpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -41,7 +45,7 @@
     <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring5 -->
     <dependency>
       <groupId>org.thymeleaf</groupId>
-      <artifactId>thymeleaf-spring5</artifactId>
+      <artifactId>thymeleaf-spring6</artifactId>
       <version>3.1.1.RELEASE</version>
     </dependency>
   </dependencies>
