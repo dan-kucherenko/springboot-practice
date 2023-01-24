@@ -44,7 +44,7 @@ public class PeopleController {
                          BindingResult bindingResult) {
         if (bindingResult.hasErrors())
             return "/people/new";
-        PersonDAO.save(person);
+        personDAO.save(person);
         return "redirect:/people";
     }
 

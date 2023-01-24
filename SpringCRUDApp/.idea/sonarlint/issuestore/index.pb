@@ -1,6 +1,4 @@
 
-h
-8src/main/java/ua/kucherenko/app/config/SpringConfig.java,8\a\8a81844f30e71a32c4d0615fb89294325ee95042
 „
 Tsrc/main/java/ua/kucherenko/app/config/MySpringMVCDiscpatcherServletInitializer.java,2\3\23288914da8365d8d057724ed00ef9f5be74f5c5
 _
@@ -13,5 +11,3 @@ _
 -src/main/webapp/WEB-INF/views/people/new.html,9\7\97c3b486fa9c121f92d9aff1f5f3e8b144c7451f
 b
 2src/main/java/ua/kucherenko/app/models/Person.java,a\4\a4aafea818a9a19352c8b10fe2eaa3241e7eaa8b
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
