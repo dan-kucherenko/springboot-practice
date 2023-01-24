@@ -11,3 +11,11 @@ _
 -src/main/webapp/WEB-INF/views/people/new.html,9\7\97c3b486fa9c121f92d9aff1f5f3e8b144c7451f
 b
 2src/main/java/ua/kucherenko/app/models/Person.java,a\4\a4aafea818a9a19352c8b10fe2eaa3241e7eaa8b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+h
+8src/main/java/ua/kucherenko/app/config/SpringConfig.java,8\a\8a81844f30e71a32c4d0615fb89294325ee95042
+q
+Asrc/main/java/ua/kucherenko/app/controllers/PeopleController.java,3\0\308d0285399e182ec76fd3921bb3f8d25131e10e
+b
+2src/main/java/ua/kucherenko/app/dao/PersonDAO.java,6\d\6d3741b591e555543785646b7007abf78ea887a6
