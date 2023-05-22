@@ -1,10 +1,4 @@
 
-a
-1src/main/java/ua/kucherenko/testspring/Music.java,7/1/71e684f464e4d3c4c81ed7b24715eff70bcf3e00
-f
-6src/main/java/ua/kucherenko/testspring/TestSpring.java,a/8/a8ad4ac24c1e14ed737f8d15257874d31b87ffd5
-f
-6src/main/java/ua/kucherenko/testspring/MetalMusic.java,5/0/50ff886634827676d1623d5408928e505dccd540
 e
 5src/main/java/ua/kucherenko/testspring/RockMusic.java,f/6/f60c9720016bee4fecc52fe3236d2dd6af65a9a6
 h
@@ -13,3 +7,17 @@ g
 7src/main/java/ua/kucherenko/testspring/MusicPlayer.java,3/2/3297de08f3bf48cc312e8bde4fe1f05c03900ad2
 d
 4src/main/java/ua/kucherenko/testspring/Computer.java,a/a/aa763bde34dfc2701019ca6f428c76ab2db0fe6c
+I
+src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/ua/kucherenko/testspring/TestSpring.java,a/8/a8ad4ac24c1e14ed737f8d15257874d31b87ffd5
+a
+1src/main/java/ua/kucherenko/testspring/Music.java,7/1/71e684f464e4d3c4c81ed7b24715eff70bcf3e00
+f
+6src/main/java/ua/kucherenko/testspring/MetalMusic.java,5/0/50ff886634827676d1623d5408928e505dccd540
+j
+:src/main/java/ua/kucherenko/testspring/ClassicalMusic.java,0/5/05751f11b61b70eba20469a784acb6ba068ca5d2
